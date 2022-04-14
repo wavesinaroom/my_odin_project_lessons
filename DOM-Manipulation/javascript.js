@@ -16,3 +16,10 @@ const blueHeaderThree = document.createElement('h3');
 blueHeaderThree.textContent = 'I\'m a blue h3';
 blueHeaderThree.style.color = 'blue';
 container.appendChild(blueHeaderThree);
+
+//div with black border and pink background color
+const pinkDiv = document.createElement('div');
+pinkDiv.classList.add("pinkDiv");
+pinkDiv.style.border = 'black';
+pinkDiv.style.backgroundColor = 'pink';
+container.appendChild(pinkDiv);
