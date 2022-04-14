@@ -23,3 +23,13 @@ pinkDiv.classList.add("pinkDiv");
 pinkDiv.style.border = 'black';
 pinkDiv.style.backgroundColor = 'pink';
 container.appendChild(pinkDiv);
+
+//h1 in pinkDiv
+const headerOne = document.createElement('h1');
+headerOne.textContent = 'I\'m in a div';
+pinkDiv.appendChild(headerOne);
+
+//p in pinkDiv
+const pinkDivPar = document.createElement('p');
+pinkDivPar.textContent = 'ME TOO!!';
+pinkDiv.appendChild(pinkDivPar);
