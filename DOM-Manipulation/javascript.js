@@ -5,4 +5,8 @@ const content = document.createElement('div');
 content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
 
-container.appendChild(content);
+//<p> Red text
+const redParagraph = document.createElement('p');
+redParagraph.textContent = 'Hey, I\'m a red text';
+redParagraph.style.color = 'red';
+container.appendChild(redParagraph);
