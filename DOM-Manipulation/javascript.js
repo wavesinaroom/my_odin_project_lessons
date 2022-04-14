@@ -10,3 +10,9 @@ const redParagraph = document.createElement('p');
 redParagraph.textContent = 'Hey, I\'m a red text';
 redParagraph.style.color = 'red';
 container.appendChild(redParagraph);
+
+//<h3> Blue text
+const blueHeaderThree = document.createElement('h3');
+blueHeaderThree.textContent = 'I\'m a blue h3';
+blueHeaderThree.style.color = 'blue';
+container.appendChild(blueHeaderThree);
